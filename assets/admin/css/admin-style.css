@@ -1,0 +1,37 @@
+.page-header {
+    margin: 10px 0px 0px 0;
+}
+.popover.right .arrow {
+    top: 180px!important;
+}
+.popover {
+    left: 360px;
+    top: 50px!important;
+}
+#app-wrap .product-design {
+    border: 1px solid #ccc;
+}
+div#view-front {
+    width: 300px!important;
+    height: 300px!important;
+    top: 30px;
+}
+.design-area {
+    height: 300px;
+    width: 300px;
+    border-radius: 0px;
+    z-index: 200;
+    overflow: hidden;
+}
+
+.admindesign>.col-md-4 {
+    min-height: 600px;
+    border-right: 1px solid #ccc;
+    padding-bottom: 40px;
+}
+#clipart-rows .box-art {
+    min-height: 140px;
+}
+.control-panel-icon {
+    height: 115px;
+}

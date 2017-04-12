@@ -1,0 +1,173 @@
+.gbtn, .mcart-dd-content, .search-form, .product-image-action .action, .product-image-action:before, .view-mode a, .bottom-toolbar ul li a, .bottom-toolbar ul li span, .pro-item a.add-to-wishlist {
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.gbtn {
+    background: #d0d0d0;
+    color: #444444;
+    padding: 0 15px;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    font-size: 12px;
+}
+.product-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 2px 3px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.home-promotion-product .pro-item {
+    padding: 0 15px;
+}
+.product-image-action {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.pro-item img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.product-image-action .action {
+    position: absolute;
+    top: 50%!important;
+    margin-top: -20px;
+    margin-left: -80px;
+    left: 50%;
+    z-index: 100;
+	padding: 0 25%;
+    transform: scale(0.0);
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+}
+.product-image-action:hover:before {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+}
+.product-image-action:before {
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.product-image-action:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transform: scale(0.5);
+    z-index: 1;
+}
+.product-image-action:hover .action {
+    transform: scale(1);
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+}
+.pro-item .gbtn {
+    float: left;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+}
+.product-image-action .gbtn {
+    width: 38px;
+    text-align: center;
+    padding: 0;
+    height: 38px;
+}
+.pro-item a.add-to-wishlist, .pro-item a.add-to-compare, .pro-item a.quick-view {
+    display: block;
+    width: 38px;
+    height: 38px;
+    color: #1a1a1a;
+    font-size: 14px;
+    text-align: center;
+    line-height: 38px;
+    float: left;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-left: none;
+}
+.product-info {
+    margin-top: 25px;
+    text-align: center;
+}
+a.product-name {
+    font-size: 14px;
+    color: #444444;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    min-height: 50px;
+}
+.product-info .price-box {
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.price-box span.special-price, .price-box span.normal-price {
+    color: #25bce9;
+    font-weight: 900;
+    font-size: 18px;
+}
+.product-info .rating-box {
+    margin-top: -2px;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.rating-box i {
+    color: #fbc443;
+    font-size: 14px;
+    margin-top: -1px;
+}
+.sale-icon {
+    background: #ffa63e;
+    z-index: 100;
+}
+.new-icon {
+    background: #25bce9;
+    z-index: 100;
+}
