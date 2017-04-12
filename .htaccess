@@ -1,0 +1,11 @@
+DirectoryIndex index.php
+#php_value post_max_size 200M
+#php_value upload_max_filesize 200M
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|css|js|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php?/$1 [L,QSA]
+
+

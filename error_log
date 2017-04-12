@@ -1,0 +1,3 @@
+
+[17-Nov-2016 12:45:04 UTC] PHP Fatal error:  Call to a member function delete() on a non-object in /home/swissmal/public_html/developer/application/controllers/payment.php on line 697
+[17-Nov-2016 15:37:15 UTC] PHP Fatal error:  Class 'Frontend_Controller' not found in /home/swissmal/public_html/developer/application/controllers/ajax.php on line 12
